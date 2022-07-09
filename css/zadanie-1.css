@@ -1,0 +1,39 @@
+h3 {
+  background: #20e21d;
+}
+body {
+  background: #72310a;
+}
+li {
+  background: yellow; 
+  border: 1px solid #8e5811;
+}
+ul {
+  background: red;
+}
+#middle {
+  background: orange;
+}
+p {
+  color: white;
+}
+#second {
+  color: blue;
+}
+.Yellow-text {
+  color: yellow;
+}
+/* задание 12 */
+.blu-with-border {
+  color: white;
+  background: blue;
+  border: dashed;
+}
+#second-paragraph {
+  background: red;
+  color: yellow;
+  border: 2px solid red;
+}
+.zadanie-12-fon {
+  background: white;
+}

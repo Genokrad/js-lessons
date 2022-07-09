@@ -1,0 +1,91 @@
+#uppercase {
+  text-transform: uppercase;
+  margin-left: 1.5%;
+  border-bottom: 2px solid #FF8757;
+  padding-bottom: 3%;
+  width: 97%;  
+  letter-spacing: 0.2rem;
+}
+a {
+  text-transform: uppercase;
+  color:rgb(255, 135, 87);
+  font-size: large;
+  margin-left: 1.5%;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background: rgb(255, 223, 174);
+  font-size: 20px;
+  /* margin-left: 1%;
+  margin-right: 1%; */
+
+}
+#zagolovok {
+  letter-spacing: 0.2rem;
+}
+.image {
+  width: 30.333%;
+  height: 30.333%;
+  margin: 1.5%;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+.image-1 {
+  content: url(image-1.jpg);
+}
+.image-2 {
+  content: url(image-2.jpg);
+}
+.image-3 {
+  content: url(image-3.jpg);
+}
+.image-4 {
+  content: url(image-4.jpg);
+}
+.image-5 {
+  content: url(image-5.jpg);
+}
+.image-6 {
+  content: url(image-6.jpg);
+}
+.image-7 {
+  content: url(image-7.jpg);
+}
+.image-8 {
+  content: url(image-8.jpg);
+}
+.image-9 {
+  content: url(image-9.jpg);
+}
+/* img {
+  width: 30.333%;
+  height: 30.333%;
+  margin: 1.5%;
+  float: left;
+} */
+h3 {
+  font-weight: bold;
+}
+hr {
+  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 135, 87, 0.3);
+  /* background: rgb(255, 135, 87);
+  position: relative;
+  height: 2px; */
+}
+.vertical {
+  border-left: 5px solid rgb(255, 135, 87);
+  height: auto;
+}
+#ot {
+  margin-left: 1.5%;
+}
+#about-anime {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  /* border-bottom: 2px solid #FF8757;
+  padding-bottom: 3%; */
+}

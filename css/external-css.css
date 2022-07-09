@@ -1,0 +1,26 @@
+h1 {
+  font-size: 50px;
+  color: rgba(29, 193, 211, 1);
+  background-color: black;
+}
+h2 {
+    font-size: 40;
+    color: rgb(255, 233, 0);
+  }
+h3 {
+    font-size: 30;
+    color: #ff1342;
+  }
+div {
+  background-color: aqua;
+  /* border-color: blue;
+  border-width: 6px;
+  border-style: dotted; */
+  border: 2px solid blue;
+
+}
+body { 
+  background: url(../cat.jpg);
+}
+
+/*1)csszengarden.com-- 2)w3schools.com> 2сата со стилями*/
