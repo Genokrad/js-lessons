@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  
+  <form action="http://google.com">
+    <label for="firstname">
+    <p>First Name</p>
+  </label>
+  
+    <input required id="firstname" placeholder="Enter your username" name="username" method="text">
+
+  <label for="lastname">
+    <p>Last Name</p>
+  </label>
+
+    <input id="lastname" placeholder="Enter your lastname"  name="lastname">
+
+  <label for="password">
+    <p>Password</p>
+  </label>
+
+    <input id="password" placeholder="Enter your password" type="password" name="userpassword">
+    
+    <label for="email">
+      <p>email</p>
+    </label>
+  
+      <input required id="email" placeholder="Enter your email" type="email" name="email">  
+<p>
+  <label for="sli">
+    Stay logged in
+  </label>
+  <input id="sli" type="checkbox" name="logged">
+</p>
+<p>
+  <label for="male">
+    Male
+  </label>
+  <input id="male" type="radio" name="sex" value="male">
+</p>
+<p>
+  <label for="female">
+    Female
+  </label>
+  <input id="female" type="radio" name="sex" value="female">
+</p>
+<p>
+  <label for="color">
+    Choose your favourite color
+  </label>
+  <input id="color" type="color" name="color">
+</p>
+<p>Choose your favorite annimal</p>
+<p>
+  <select name="animal">
+    <option>Cat</option>
+    <option>Dog</option>
+    <option>Bird</option>
+  </select>
+</p>
+
+<p>
+  <label for="data">
+    Submit data
+  </label>
+  <input id="data" type="submit" value="Send">
+</p>
+  </form>
+
+</body>
+</html>

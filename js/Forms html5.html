@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="myform">
+    <p>Placeholder<input type="text" placeholder="Input some text here"></p>
+    <p>Autofocus<input type="text" autofocus></p>
+    <p>Reqired<input type="text" required></p> <!-- обязательное к заполнению-->
+    <p>Email<input type="email" placeholder="email"></p>
+    <p>Pattern<input type="text" placeholder="number 0-9" pattern="[0-9]"></p>
+    <datalist id="colors">
+
+      <option>red</option>
+      <option>blue</option>
+      <option>green</option>
+      <option>black</option>
+
+    </datalist>
+    <p>Autocomplete<input type="text" list="colors"></p>
+    <p><input type="submit" value="Submit"></p>
+
+  </form>
+  <p>Autocomplete<input form="myform" type="text" list="colors"></p>
+</body>
+</html>
